@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    height: 100vh;
+    background-image: linear-gradient(darkgreen,yellow);
+}
+#slider-container{
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+button{
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

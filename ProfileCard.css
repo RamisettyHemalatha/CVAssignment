@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: radial-gradient(hotpink,#3498db,hotpink);
+}
+.profile-card{
+    background: rgb(226, 187, 194);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.profile-card:hover{
+    transform: scale(1.05);
+}
+.profile-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+}
+h2{
+    margin: 10px 0;
+    color: #333;
+}
+.designation{
+    color: #777;
+    font-size: 14px;
+}
+.bio{
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+.social-icons{
+    margin-top: 15px;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #3498db;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.social-icons a:hover{
+    color: aqua;
+}
